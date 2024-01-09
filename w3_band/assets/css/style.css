@@ -250,7 +250,8 @@ html {
 
 /* Footer */
 .place-list {
-    margin-top: 32px;
+    margin: 32px -8px 0;
+    padding-bottom: 32px;
 
 
 }
@@ -264,29 +265,53 @@ html {
 
 .place-img {
     width: 100%;
+    display: block;
 
 }
+.place-img:hover {
+    opacity: 0.6;
+}
+
 
 .place-body {
+
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
 
 }
 
 .place-heading {
-
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .place-time {
+    margin-top: 15px;
+    color: #757575;
 
 }
 
 .place-decs {
-
+    margin-top: 15px;
+    line-height: 1.4;
 }
 
 .place-buy-btn {
+    color : #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
 
 }
 
+.place-buy-btn:hover {
+    color: #000;
+    background-color: #ccc;
+
+}
 
 
 
